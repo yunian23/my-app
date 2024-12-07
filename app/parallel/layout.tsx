@@ -2,7 +2,7 @@
  * @Author: wanglijuan
  * @Date: 2024-12-07 13:53:09
  * @LastEditors: wanglijuan
- * @LastEditTime: 2024-12-07 14:55:45
+ * @LastEditTime: 2024-12-07 14:54:33
  */
 import Link from "next/link";
 
@@ -26,6 +26,6 @@ export default function ParallelLayout({
       {team}
     </div>
 
-    <div >{children}</div>
+    <div className="bg-gray-50 flex-1">{children}</div>
   </div>
 }
